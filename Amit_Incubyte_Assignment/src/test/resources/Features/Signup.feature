@@ -8,4 +8,4 @@ Feature: User Sign Up on Magento Website
 
    Examples:
     | firstname | lastname | email | password | confirmationpassword |
-    | Amit | Test3 | amittest3@gmail.com | Password123 | Password123 |
+    | Amit | Test7 | amittest7@gmail.com | Password123 | Password123 |

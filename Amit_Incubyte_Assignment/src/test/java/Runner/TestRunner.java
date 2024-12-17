@@ -9,7 +9,9 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
         features = "src/test/resources/Features/Signup.feature", // Path to your feature file
         glue = {"StepDefinitions"}, // Package where step definitions are located
-        plugin = {"pretty", "html:target/cucumber-reports"}
+        plugin = {"pretty", "html:target/cucumber-reports",
+        		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+        		}
        // monochrome=true
         		
 )
